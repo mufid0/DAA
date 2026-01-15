@@ -1,7 +1,3 @@
-Here’s a clear, professional, and structured README for your Jupyter notebooks:
-
----
-
 # Algorithms and Data Structures Notebooks
 
 This repository contains implementations of classic algorithms and problem-solving techniques in Python using Jupyter Notebooks. Each notebook is self-contained and demonstrates the algorithm along with explanations and sample outputs.
