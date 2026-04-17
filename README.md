@@ -1,66 +1,114 @@
-# Algorithms and Data Structures Notebooks
+# 🧠 Data Structures & Algorithms (DSA)
 
-This repository contains implementations of classic algorithms and problem-solving techniques in Python using Jupyter Notebooks. Each notebook is self-contained and demonstrates the algorithm along with explanations and sample outputs.
+A collection of classic algorithmic problems implemented in Python, focusing on building strong problem-solving skills using core techniques such as recursion, greedy algorithms, dynamic programming, and backtracking.
 
-## Notebooks Overview
+---
 
-### 1. `Fibonacci.ipynb`
+## 📂 Repository Structure
 
-* **Description:** Implements the Fibonacci sequence using multiple approaches including recursion, iteration, and dynamic programming.
-* **Key Concepts:** Recursion, Dynamic Programming, Time Complexity Optimization.
-* **Use Case:** Learning different methods to generate the Fibonacci sequence efficiently.
+```bash
+dsa-algorithms/
+│
+├── Fibonacci.ipynb            # Fibonacci sequence (Recursion / DP)
+├── Huffman Encoding.ipynb     # Data compression using Greedy approach
+├── Fractional Knapsack.ipynb  # Greedy optimization problem
+├── 01 Knapsack.ipynb          # Dynamic Programming problem
+├── NQueen.ipynb               # Backtracking problem
+│
+└── README.md
+```
 
-### 2. `Huffman Encoding.ipynb`
+---
 
-* **Description:** Demonstrates Huffman Encoding for data compression.
-* **Key Concepts:** Greedy Algorithms, Priority Queue, Binary Tree, Data Compression.
-* **Use Case:** Understanding how variable-length encoding can reduce storage space.
+## 🚀 Implemented Problems
 
-### 3. `Fractional Knapsack.ipynb`
+### 🔢 Fibonacci Sequence
 
-* **Description:** Implements the Fractional Knapsack problem using a greedy approach.
-* **Key Concepts:** Greedy Algorithm, Optimization, Fractional Selection.
-* **Use Case:** Solving resource allocation problems where fractions of items can be taken.
+* Generates Fibonacci numbers using recursion and dynamic programming
+* Demonstrates optimization using memoization
 
-### 4. `01 Knapsack.ipynb`
+---
 
-* **Description:** Solves the 0/1 Knapsack problem using dynamic programming.
-* **Key Concepts:** Dynamic Programming, Optimization, Binary Selection.
-* **Use Case:** Selecting items with maximum value without exceeding weight constraints.
+### 🧩 Huffman Encoding
 
-### 5. `NQueen.ipynb`
+* Implements optimal data compression using binary trees
+* Minimizes encoding cost using greedy strategy
 
-* **Description:** Solves the N-Queen problem using backtracking.
-* **Key Concepts:** Backtracking, Recursion, Constraint Satisfaction Problem.
-* **Use Case:** Understanding placement problems and recursive search techniques.
+---
 
-## Requirements
+### 🎒 Fractional Knapsack
 
-* Python 3.x
-* Jupyter Notebook
-* Libraries:
+* Maximizes profit by selecting fractional items
+* Uses value-to-weight ratio for optimal selection
 
-  ```bash
-  pip install numpy matplotlib
-  ```
+---
 
-  *(Additional libraries may be required as noted in individual notebooks.)*
+### 🎯 0/1 Knapsack
 
-## How to Use
+* Solves item selection without breaking items
+* Uses dynamic programming for optimal solution
 
-1. Clone the repository:
+---
 
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the folder:
+### 👑 N-Queen Problem
 
-   ```bash
-   cd <repository-folder>
-   ```
-3. Launch Jupyter Notebook:
+* Places N queens on a chessboard without conflicts
+* Solved using backtracking approach
 
-   ```bash
-   jupyter notebook
-   ```
-4. Open and run the desired notebook.
+---
+
+## 🧠 Concepts Covered
+
+* Recursion
+* Greedy Algorithms
+* Dynamic Programming
+* Backtracking
+* Optimization Techniques
+
+---
+
+## ▶️ How to Run
+
+### Using Jupyter Notebook
+
+1. Open any `.ipynb` file
+2. Run cells using **Shift + Enter**
+
+### Run Locally
+
+```bash
+jupyter notebook
+```
+
+---
+
+## 📈 Learning Outcomes
+
+* Strong foundation in DSA concepts
+* Improved logical and analytical thinking
+* Ability to choose optimal algorithms
+* Understanding of time and space complexity
+
+---
+
+## 📌 Future Enhancements
+
+* Add complexity analysis for each problem
+* Include visual explanations
+* Expand with graph and tree algorithms
+* Add more advanced dynamic programming problems
+
+---
+
+## 👨‍💻 Author
+
+**Mufid Panhalkar**
+Computer Engineering Student | AI/ML Enthusiast
+
+---
+
+## ⭐ Support
+
+If you find this repository helpful, consider giving it a ⭐ on GitHub!
+
+---
